@@ -1,18 +1,14 @@
-<a href="https://jackryanoracoy.github.io/moonshine">
-  <img src="https://github.com/jackryanoracoy/moonshine/blob/master/assets/images/image-above-the-fold.jpg" alt="Moonshine" style="max-width: 100%;">
-</a>
-
-# Moonshine
+# Dawnbreak
   
-Moonshine (Front-end Web Development Boilerplate) - A Scalable and Maintainable Architecture.  
+Dawnbreak (Front-end Web Development Boilerplate) - A Scalable and Maintainable Architecture.  
   
   
 ## Getting Started  
 
-Get started with Moonshine, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.  
-Moonshine helps you build not only fast but scalable and maintainable web apps or sites. With Moonshine you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...  
+Get started with Dawnbreak, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.  
+Dawnbreak helps you build not only fast but scalable and maintainable web apps or sites. With Dawnbreak you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...  
   
-Ready to kick-start your project using Moonshine? [Read the documentation page](https://jackryanoracoy.github.io/moonshine).  
+Ready to kick-start your project using Dawnbreak? [Read the documentation page](https://jackryanoracoy.github.io/dawnbreak).  
 Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Or you can use our boilerplate.html included in the package.  
   
 ### Content  
@@ -20,7 +16,7 @@ Be sure to have your pages set up with the latest design and development standar
 Discover what’s included in the package. Once downloaded, unzip the compressed folder and you’ll see something similar to this:  
   
 ```
-moonshine/
+dawnbreak/
 ├── addon/
 │   └── fontawesome/
 ├── assets/
@@ -75,7 +71,7 @@ moonshine/
   
 ### Theming  
   
-Customize Moonshine with CSS variables or SASS variables for global style preferences for easy theming and component changes.
+Customize Dawnbreak with CSS variables or SASS variables for global style preferences for easy theming and component changes.
 Here are the CSS variables we include (note that the :root is required). For more info, please check settings.css or the scss code base (mixins, variables etc...).
   
 ```
@@ -132,7 +128,7 @@ Here are the CSS variables we include (note that the :root is required). For mor
   
 ### Breakpoints  
   
-Moonshine use a handful of media queries to create sensible breakpoints for layouts and interfaces. 
+Dawnbreak use a handful of media queries to create sensible breakpoints for layouts and interfaces. 
 These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.  
   
 ```
@@ -174,7 +170,7 @@ Note: To extend template's accessibility please see [WAI-ARIA](https://www.w3.or
 ## CSS Methodologies  
   
 Organize project files that can better deal with CSS specifics like global namespace, cascade and selectors specificity.  
-Shares the same methodology of some popular methodologies like ITCSS, BEM, SMACSS and OOCSS.  
+Shares the same methodology of some popular methodologies like ITCSS, SMACSS and OOCSS.  
 This approach is to ensure everyone who participates in the development of a website works with a single codebase and speaks the same language.  
   
 ### Separated CSS codebase  
@@ -190,7 +186,7 @@ component.css - specific UI components.
 Sassy CSS  
   
 ```
-moonshine/
+dawnbreak/
 └── styles/
     ├── css
     │   ├── all.css
@@ -234,7 +230,7 @@ moonshine/
 Basic CSS  
   
 ```
-moonshine/
+dawnbreak/
 └── styles/
     ├── base.css
     ├── component.css
@@ -269,21 +265,6 @@ others - min, max, auto.
 .prefix-name__child-viewport {...}
 .prefix-name__child-viewport-int {...}
 ```  
-  
-Samples:  
-  
-```
-.l-flex {...}
-.l-flex--wrp-no {...}
-.l-flex--wrp-no-md {...}
-.l-flex__item {...}
-.l-flex__item-12 {...}
-.l-flex__item-md {...}
-.l-flex__item-md-12 {...}
-.u-mar-top-10 {...}
-.u-mar-top-sm-20 {...}
-.u-mar-top-md-50 {...} 
-```
   
 Import order:  
   

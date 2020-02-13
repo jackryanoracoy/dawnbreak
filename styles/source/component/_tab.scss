@@ -1,11 +1,11 @@
-// Moonshine
+// Dawnbreak
 // Scalable and Maintainable Architecture.
 //
 // Author:   Jack Ryan Oracoy
 // Website:  https://jackryanoracoy.github.io
 // Email:    jackryanoracoy@gmail.com
-// URL:      https://github.com/jackryanoracoy/moonshine
-// License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
+// URL:      https://github.com/jackryanoracoy/dawnbreak
+// License:  https://github.com/jackryanoracoy/dawnbreak/blob/master/LICENSE.txt
 
 /*--------------------------------------------------
   Tab
@@ -16,7 +16,7 @@
   padding: 0px;
   list-style: none;
 
-  &__item {
+  &-item {
     display: inline-block;
     padding: 10px 15px;
     color: $dark;
@@ -24,7 +24,7 @@
     cursor: pointer;
   }
 
-  &__item.js-current {
+  &-item.js-current {
     background-color: $light;
     color: $dark;
   }

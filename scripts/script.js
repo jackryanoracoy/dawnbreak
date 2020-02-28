@@ -78,7 +78,7 @@ $(document).ready(function($) {
 });
 
 // Parallax
-$('.l-parallax__image').each(function() {
+$('.l-parallax-image').each(function() {
   var img = $(this);
   var imgParent = $(this).parent();
   function parallaxImg () {

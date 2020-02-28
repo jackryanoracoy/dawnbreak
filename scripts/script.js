@@ -73,7 +73,7 @@ $(document).ready(function($) {
   $('.c-site-menu').click(function() {
     $('.c-site-menu').stop().toggleClass('js-active');
     $('.l-site-header').stop().toggleClass('js-menu-opened');
-    $('.l-site-header__navigation').stop().toggleClass('js-show');
+    $('.l-site-header-navigation').stop().toggleClass('js-show');
   });
 });
 

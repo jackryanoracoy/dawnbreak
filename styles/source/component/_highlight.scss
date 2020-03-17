@@ -11,44 +11,44 @@
   Highlight
 --------------------------------------------------*/
 
-.c-highlight {
+.highlight {
   color: $light;
   padding: 20px;
   background-color: $secondary;
   border-radius: 4px;
   overflow: auto;
 
-  &.is-light {
+  &.light {
     color: $dark;
     background-color: $light;
   }
 
-  &.is-dark {
+  &.dark {
     color: $light;
     background-color: $dark;
   }
 
-  &.is-success {
+  &.success {
     color: $light;
     background-color: $success;
   }
 
-  &.is-warning {
+  &.warning {
     color: $light;
     background-color: $warning;
   }
 
-  &.is-danger {
+  &.danger {
     color: $light;
     background-color: $danger;
   }
 
-  &.is-info {
+  &.info {
     color: $light;
     background-color: $info;
   }
 
-  &.is-grey {
+  &.grey {
     color: $dark;
     background-color: $grey-300;
   }

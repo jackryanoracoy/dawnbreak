@@ -24,7 +24,7 @@ window.onload = function(){
 // Detect if user is using TAB to navigate
 function handleFirstTab(e) {
   if (e.keyCode === 9) {
-    document.body.classList.add('js-tab-used');
+    document.body.classList.add('tab-used');
     window.removeEventListener('keydown', handleFirstTab);
   }
 }
@@ -42,15 +42,15 @@ $(document).ready(function($) {
     setTimeout(function() {
       var scroll = $(window).scrollTop();
       if (scroll > lastScroll + 10) {
-        $(".l-site-header").removeClass("js-show");
+        $(".site-header").removeClass("show");
       } else if (scroll < lastScroll - 10) {
-        $(".l-site-header").addClass("js-show");
+        $(".site-header").addClass("show");
       }
 
       if (scroll >= 100) {
-        $(".l-site-header").addClass("js-active");
+        $(".site-header").addClass("active");
       } else {
-        $(".l-site-header").removeClass("js-active");
+        $(".site-header").removeClass("active");
       } lastScroll = scroll;
     }, 300);
   });
@@ -70,15 +70,15 @@ $(document).ready(function() {
 
 // Toggle class on click
 $(document).ready(function($) {
-  $('.c-site-menu').click(function() {
-    $('.c-site-menu').stop().toggleClass('js-active');
-    $('.l-site-header').stop().toggleClass('js-menu-opened');
-    $('.l-site-header-navigation').stop().toggleClass('js-show');
+  $('.site-menu').click(function() {
+    $('.site-menu').stop().toggleClass('active');
+    $('.site-header').stop().toggleClass('menu-opened');
+    $('.site-header-navigation').stop().toggleClass('show');
   });
 });
 
 // Parallax
-$('.l-parallax-image').each(function() {
+$('.parallax-image').each(function() {
   var img = $(this);
   var imgParent = $(this).parent();
   function parallaxImg () {
@@ -119,13 +119,13 @@ $('.l-parallax-image').each(function() {
 // Tabs
 $(document).ready(function() {
 
-	$('.c-tab-link li').click(function() {
+	$('.tab-link li').click(function() {
 		var tab_id = $(this).attr('data-tab');
 
-		$('.c-tab-link li').removeClass('js-current');
-		$('.c-tab-content').removeClass('js-current');
+		$('.tab-link li').removeClass('current');
+		$('.tab-content').removeClass('current');
 
-		$(this).addClass('js-current');
-		$("#"+tab_id).addClass('js-current');
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
 	})
 });

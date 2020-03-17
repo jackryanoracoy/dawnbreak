@@ -11,14 +11,14 @@
   Card
 --------------------------------------------------*/
 
-.c-card {
+.card {
   height: auto;
   color: $dark !important;
   background-color: $light;
   border-radius: 2px;
   box-shadow: $z-depth-1;
 
-  &.is-dark {
+  &.dark {
     color: $light !important;
     background-color: $dark;
   }

@@ -11,20 +11,20 @@
 /*--------------------------------------------------
   Form
 --------------------------------------------------*/
-.c-form {
+.form {
   position: relative;
 }
 
-.c-form.is-fuid {
+.form.fuid {
   width: 100%;
 }
 
-.c-form label {
+.form label {
   display: block;
   text-transform: uppercase;
 }
 
-.c-form textarea {
+.form textarea {
   width: 100%;
   max-width: 100%;
   height: 60px;
@@ -32,23 +32,23 @@
   resize: vertical;
 }
 
-.c-form input[type=checkbox] {
+.form input[type=checkbox] {
   width: 10px;
   height: 10px;
   vertical-align: middle;
 }
 
-.c-form input[type=text],
-.c-form input[type=email],
-.c-form input[type=number] {
+.form input[type=text],
+.form input[type=email],
+.form input[type=number] {
   width: 100%;
   height: 40px;
 }
 
-.c-form textarea,
-.c-form input[type=text],
-.c-form input[type=email],
-.c-form input[type=number] {
+.form textarea,
+.form input[type=text],
+.form input[type=email],
+.form input[type=number] {
   padding: 10px;
   color: inherit;
   font-size: 1.4rem;
@@ -59,53 +59,53 @@
   border: 1px solid #757575;
 }
 
-.c-form button,
-.c-form input[type=button],
-.c-form input[type=submit] {
+.form button,
+.form input[type=button],
+.form input[type=submit] {
   cursor: pointer;
   border: none;
 }
 
-.c-form button:disabled:hover,
-.c-form input[type=button]:disabled:hover,
-.c-form input[type=submit]:disabled:hover {
+.form button:disabled:hover,
+.form input[type=button]:disabled:hover,
+.form input[type=submit]:disabled:hover {
   cursor: auto;
   opacity: 0.5;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.c-form button,
-.c-form textarea,
-.c-form input[type=text],
-.c-form input[type=email],
-.c-form input[type=button],
-.c-form input[type=number],
-.c-form input[type=submit] {
+.form button,
+.form textarea,
+.form input[type=text],
+.form input[type=email],
+.form input[type=button],
+.form input[type=number],
+.form input[type=submit] {
   outline: none;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
 
-.c-form ::-webkit-input-placeholder {
+.form ::-webkit-input-placeholder {
   color: inherit;
   font-size: 1.4rem;
   line-height: 40px;
 }
 
-.c-form :-ms-input-placeholder {
+.form :-ms-input-placeholder {
   color: inherit;
   font-size: 1.4rem;
   line-height: 40px;
 }
 
-.c-form ::-ms-input-placeholder {
+.form ::-ms-input-placeholder {
   color: inherit;
   font-size: 1.4rem;
   line-height: 40px;
 }
 
-.c-form ::placeholder {
+.form ::placeholder {
   color: inherit;
   font-size: 1.4rem;
   line-height: 40px;
@@ -114,7 +114,7 @@
 /*--------------------------------------------------
   Browser Notice
 --------------------------------------------------*/
-.c-browser-notice {
+.browser-notice {
   padding: 20px;
   color: #FFFFFF;
   text-align: center;
@@ -124,13 +124,13 @@
 /*--------------------------------------------------
   Tab
 --------------------------------------------------*/
-.c-tab-link {
+.tab-link {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
-.c-tab-link-item {
+.tab-link-item {
   display: inline-block;
   padding: 10px 15px;
   color: #212121;
@@ -138,25 +138,25 @@
   cursor: pointer;
 }
 
-.c-tab-link-item.js-current {
+.tab-link-item.current {
   background-color: #FAFAFA;
   color: #212121;
 }
 
-.c-tab-content {
+.tab-content {
   display: none;
   background: #FAFAFA;
   padding: 15px;
 }
 
-.c-tab-content.js-current {
+.tab-content.current {
   display: inherit;
 }
 
 /*--------------------------------------------------
   Button
 --------------------------------------------------*/
-.c-button {
+.button {
   display: inline-block;
   min-width: 50px;
   padding: 0 15px;
@@ -173,52 +173,52 @@
   white-space: nowrap;
 }
 
-.c-button:hover, .c-button:visited, .c-button:active, .c-button:focus {
+.button:hover, .button:visited, .button:active, .button:focus {
   text-decoration: none;
 }
 
-.c-button:hover {
+.button:hover {
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 4px 4px -4px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 4px 4px -4px rgba(0, 0, 0, 0.2);
 }
 
-.c-button.is-block {
+.button.block {
   display: block;
 }
 
-.c-button.is-large {
+.button.large {
   min-width: 60px;
   line-height: 60px;
   border-radius: 30px;
   padding: 0 20px;
 }
 
-.c-button.is-light {
+.button.light {
   color: #212121 !important;
   background-color: #FAFAFA;
 }
 
-.c-button.is-dark {
+.button.dark {
   color: #FAFAFA !important;
   background-color: #212121;
 }
 
-.c-button.is-success {
+.button.success {
   color: #FAFAFA !important;
   background-color: #4CAF50;
 }
 
-.c-button.is-warnig {
+.button.warnig {
   color: #FAFAFA !important;
   background-color: #FF9800;
 }
 
-.c-button.is-danger {
+.button.danger {
   color: #FAFAFA !important;
   background-color: #F44336;
 }
 
-.c-button.is-info {
+.button.info {
   color: #FAFAFA !important;
   background-color: #00BCD4;
 }
@@ -226,7 +226,7 @@
 /*--------------------------------------------------
   Card
 --------------------------------------------------*/
-.c-card {
+.card {
   height: auto;
   color: #212121 !important;
   background-color: #FAFAFA;
@@ -235,19 +235,19 @@
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.c-card.is-dark {
+.card.dark {
   color: #FAFAFA !important;
   background-color: #212121;
 }
 
-.c-card-content {
+.card-content {
   padding: 20px;
 }
 
 /*--------------------------------------------------
   Highlight
 --------------------------------------------------*/
-.c-highlight {
+.highlight {
   color: #FAFAFA;
   padding: 20px;
   background-color: #37474F;
@@ -255,37 +255,37 @@
   overflow: auto;
 }
 
-.c-highlight.is-light {
+.highlight.light {
   color: #212121;
   background-color: #FAFAFA;
 }
 
-.c-highlight.is-dark {
+.highlight.dark {
   color: #FAFAFA;
   background-color: #212121;
 }
 
-.c-highlight.is-success {
+.highlight.success {
   color: #FAFAFA;
   background-color: #4CAF50;
 }
 
-.c-highlight.is-warning {
+.highlight.warning {
   color: #FAFAFA;
   background-color: #FF9800;
 }
 
-.c-highlight.is-danger {
+.highlight.danger {
   color: #FAFAFA;
   background-color: #F44336;
 }
 
-.c-highlight.is-info {
+.highlight.info {
   color: #FAFAFA;
   background-color: #00BCD4;
 }
 
-.c-highlight.is-grey {
+.highlight.grey {
   color: #212121;
   background-color: #E0E0E0;
 }
@@ -293,42 +293,42 @@
 /*--------------------------------------------------
   Heading
 --------------------------------------------------*/
-.c-heading-above-the-fold,
-.c-heading-section {
+.heading-above-the-fold,
+.heading-section {
   font-family: "Open Sans Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.c-heading-above-the-fold {
+.heading-above-the-fold {
   color: #263238;
   font-size: 2.8rem;
   letter-spacing: 0.5rem;
 }
 
 @media (min-width: 992px) {
-  .c-heading-above-the-fold {
+  .heading-above-the-fold {
     font-size: 3.4rem;
   }
 }
 
-.c-heading-section {
+.heading-section {
   color: #616161;
   font-size: 2.4rem;
   letter-spacing: 0.2rem;
 }
 
 @media (min-width: 992px) {
-  .c-heading-section {
+  .heading-section {
     font-size: 2.8rem;
   }
 }
 
-.c-heading-article {
+.heading-article {
   color: #212121;
   font-size: 1.6rem;
 }
 
 @media (min-width: 992px) {
-  .c-heading-article {
+  .heading-article {
     font-size: 1.8rem;
   }
 }
@@ -336,7 +336,7 @@
 /*--------------------------------------------------
   Site-menu
 --------------------------------------------------*/
-.c-site-menu {
+.site-menu {
   position: relative;
   display: block;
   color: #FAFAFA;
@@ -345,7 +345,7 @@
   text-decoration: none;
 }
 
-.c-site-menu-box {
+.site-menu-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,7 +359,7 @@
   height: 24px;
 }
 
-.c-site-menu-inner {
+.site-menu-inner {
   position: relative;
   display: block;
   width: inherit;
@@ -367,7 +367,7 @@
   background-color: #FAFAFA;
 }
 
-.c-site-menu-inner::after, .c-site-menu-inner::before {
+.site-menu-inner::after, .site-menu-inner::before {
   position: absolute;
   content: "";
   display: block;
@@ -378,29 +378,29 @@
   transition: all 200ms ease-in-out;
 }
 
-.c-site-menu-text {
+.site-menu-text {
   margin: 4px 0 0;
 }
 
-.c-site-menu-inner::before {
+.site-menu-inner::before {
   top: -10px;
 }
 
-.c-site-menu-inner::after {
+.site-menu-inner::after {
   bottom: -10px;
 }
 
-.c-site-menu.js-active .c-site-menu-inner {
+.site-menu.active .site-menu-inner {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.c-site-menu.js-active .c-site-menu-inner::before {
+.site-menu.active .site-menu-inner::before {
   top: 0;
   -webkit-transform: rotate(-40deg);
           transform: rotate(-40deg);
 }
 
-.c-site-menu.js-active .c-site-menu-inner::after {
+.site-menu.active .site-menu-inner::after {
   bottom: 0;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
@@ -409,7 +409,7 @@
 /*--------------------------------------------------
   Site-nav
 --------------------------------------------------*/
-.c-site-nav {
+.site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,11 +420,11 @@
   list-style: none;
 }
 
-.c-site-nav-item {
+.site-nav-item {
   overflow: hidden;
 }
 
-.c-site-nav-item a {
+.site-nav-item a {
   display: block;
   padding: 0 10px;
   color: #FFF;
@@ -437,14 +437,14 @@
 }
 
 @media (min-width: 992px) {
-  .c-site-nav {
+  .site-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .c-site-nav-item a:hover,
-  .c-site-nav.is-active a {
+  .site-nav-item a:hover,
+  .site-nav.active a {
     background-color: #263238;
   }
 }
@@ -452,7 +452,7 @@
 /*--------------------------------------------------
   Site-title
 --------------------------------------------------*/
-.c-site-branding {
+.site-branding {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -468,12 +468,12 @@
   white-space: nowrap;
 }
 
-.c-site-branding-logo {
+.site-branding-logo {
   max-width: 100%;
   max-height: calc(100% - 20px);
 }
 
-.c-site-branding-title {
+.site-branding-title {
   padding-left: 10px;
   font-size: inherit;
   text-overflow: ellipsis;
@@ -481,7 +481,7 @@
 }
 
 @media (min-width: 992px) {
-  .c-site-branding {
+  .site-branding {
     height: 75px;
     font-size: 2.8rem;
   }

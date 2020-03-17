@@ -11,7 +11,7 @@
   Button
 --------------------------------------------------*/
 
-.c-button {
+.button {
   display: inline-block;
   min-width: $button-height;
   padding: 0 15px;
@@ -37,41 +37,41 @@
     box-shadow: $z-depth-2;
   }
 
-  &.is-block { display: block; }
+  &.block { display: block; }
 
-  &.is-large {
+  &.large {
     min-width: $button-height-lg;
     line-height: $button-height-lg;
     border-radius: $button-height-lg / 2;
     padding: 0 20px;
   }
 
-  &.is-light {
+  &.light {
     color: $dark !important;
     background-color: $light;
   }
 
-  &.is-dark {
+  &.dark {
     color: $light !important;
     background-color: $dark;
   }
 
-  &.is-success {
+  &.success {
     color: $light !important;
     background-color: $success;
   }
 
-  &.is-warnig {
+  &.warnig {
     color: $light !important;
     background-color: $warning;
   }
 
-  &.is-danger {
+  &.danger {
     color: $light!important;
     background-color: $danger;
   }
 
-  &.is-info {
+  &.info {
     color: $light !important;
     background-color: $info;
   }

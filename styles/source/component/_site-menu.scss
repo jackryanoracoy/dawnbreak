@@ -11,7 +11,7 @@
   Site-menu
 --------------------------------------------------*/
 
-.c-site-menu {
+.site-menu {
   position: relative;
   display: block;
   color: $light;
@@ -50,8 +50,8 @@
   &-inner::before { top: -10px; }
   &-inner::after { bottom: -10px; }
 
-  &.js-active &-inner { background-color: rgba(0, 0, 0, 0); }
-  &.js-active &-inner::before { top: 0; transform: rotate(-40deg); }
-  &.js-active &-inner::after { bottom: 0; transform: rotate(40deg); }
+  &.active &-inner { background-color: rgba(0, 0, 0, 0); }
+  &.active &-inner::before { top: 0; transform: rotate(-40deg); }
+  &.active &-inner::after { bottom: 0; transform: rotate(40deg); }
 }
 

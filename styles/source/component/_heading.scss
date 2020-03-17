@@ -11,12 +11,12 @@
   Heading
 --------------------------------------------------*/
 
-.c-heading-above-the-fold,
-.c-heading-section {
+.heading-above-the-fold,
+.heading-section {
   font-family: $font-secondary;
 }
 
-.c-heading-above-the-fold {
+.heading-above-the-fold {
   color: $primary;
   font-size: $font-sl;
   letter-spacing: 0.5rem;
@@ -26,7 +26,7 @@
   }
 }
 
-.c-heading-section {
+.heading-section {
   color: $grey-700;
   font-size: $font-xl;
   letter-spacing: 0.2rem;
@@ -36,7 +36,7 @@
   }
 }
 
-.c-heading-article {
+.heading-article {
   color: $grey-900;
   font-size: $font-nm;
 

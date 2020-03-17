@@ -11,7 +11,7 @@
   Tab
 --------------------------------------------------*/
 
-.c-tab-link {
+.tab-link {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -24,16 +24,16 @@
     cursor: pointer;
   }
 
-  &-item.js-current {
+  &-item.current {
     background-color: $light;
     color: $dark;
   }
 }
 
-.c-tab-content {
+.tab-content {
   display: none;
   background: $light;
   padding: 15px;
 
-  &.js-current { display: inherit; }
+  &.current { display: inherit; }
 }

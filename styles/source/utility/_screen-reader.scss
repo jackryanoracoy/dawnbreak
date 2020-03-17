@@ -23,8 +23,8 @@
   width: 1px;
   word-wrap: normal !important;
 
-  &.is-focusable:active,
-  &.is-focusable:focus {
+  &.focusable:active,
+  &.focusable:focus {
     position: static;
     width: auto;
     height: auto;

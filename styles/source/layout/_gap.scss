@@ -11,75 +11,75 @@
   Gap
 --------------------------------------------------*/
 
-.l-gap-10 {
+.gap-10 {
   margin: -5px;
 
   & > div,
-  & > .l-gap-item { padding: 5px; }
+  & > .gap-item { padding: 5px; }
 }
-.l-gap-20 {
+.gap-20 {
   margin: -10px;
 
   & > div,
-  & > .l-gap-item { padding: 10px; }
+  & > .gap-item { padding: 10px; }
 }
 
-.l-gap-30 {
+.gap-30 {
   margin: -15px;
 
   & > div,
-  & > .l-gap-item { padding: 15px; }
+  & > .gap-item { padding: 15px; }
 }
 
-.l-gap-40 {
+.gap-40 {
   margin: -20px;
 
   & > div,
-  & > .l-gap-item { padding: 20px; }
+  & > .gap-item { padding: 20px; }
 }
 
-.l-gap-50 {
+.gap-50 {
   margin: -25px;
 
   & > div,
-  & > .l-gap-item { padding: 25px; }
+  & > .gap-item { padding: 25px; }
 }
 
 @each $breakpoint in map-keys($breakpoints) {
   @include media-breakpoint-min($breakpoint) {
-    .l-gap-#{$breakpoint}-10 {
+    .gap-#{$breakpoint}-10 {
       margin: -5px;
 
       & > div,
-      & > .l-gap-item { padding: 5px; }
+      & > .gap-item { padding: 5px; }
     }
 
-    .l-gap-#{$breakpoint}-20 {
+    .gap-#{$breakpoint}-20 {
       margin: -10px;
 
       & > div,
-      & > .l-gap-item { padding: 10px; }
+      & > .gap-item { padding: 10px; }
     }
 
-    .l-gap-#{$breakpoint}-30 {
+    .gap-#{$breakpoint}-30 {
       margin: -15px;
 
       & > div,
-      & > .l-gap-item { padding: 15px; }
+      & > .gap-item { padding: 15px; }
     }
 
-    .l-gap-#{$breakpoint}-40 {
+    .gap-#{$breakpoint}-40 {
       margin: -20px;
 
       & > div,
-      & > .l-gap-item { padding: 20px; }
+      & > .gap-item { padding: 20px; }
     }
 
-    .l-gap-#{$breakpoint}-50 {
+    .gap-#{$breakpoint}-50 {
       margin: -25px;
 
       & > div,
-      & > .l-gap-item { padding: 25px; }
+      & > .gap-item { padding: 25px; }
     }
   }
 }

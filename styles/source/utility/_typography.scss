@@ -11,64 +11,64 @@
   Typography
 --------------------------------------------------*/
 
-.u-text-center { text-align: center; }
-.u-text-justify { text-align: justify; }
-.u-text-right { text-align: right; }
-.u-text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
 
-.u-text-overline { text-decoration: overline; }
-.u-text-underline { text-decoration: underline; }
-.u-text-linethrough { text-decoration: line-through; }
+.text-overline { text-decoration: overline; }
+.text-underline { text-decoration: underline; }
+.text-linethrough { text-decoration: line-through; }
 
-.u-font-normal { font-weight: normal; }
-.u-font-bold { font-weight: bold; }
-.u-font-bolder { font-weight: bolder; }
-.u-font-lighter { font-weight: lighter; }
+.font-normal { font-weight: normal; }
+.font-bold { font-weight: bold; }
+.font-bolder { font-weight: bolder; }
+.font-lighter { font-weight: lighter; }
 
-.u-font-default { font-size: $font-nm; }
-.u-font-small { font-size: $font-sm; }
-.u-font-medium { font-size: $font-md; }
-.u-font-large { font-size: $font-lg; }
-.u-font-extra-large { font-size: $font-xl; }
-.u-font-super-large { font-size: $font-sl; }
-.u-font-mega-large { font-size: $font-ml; }
+.font-default { font-size: $font-nm; }
+.font-small { font-size: $font-sm; }
+.font-medium { font-size: $font-md; }
+.font-large { font-size: $font-lg; }
+.font-extra-large { font-size: $font-xl; }
+.font-super-large { font-size: $font-sl; }
+.font-mega-large { font-size: $font-ml; }
 
-.u-line-height-small { line-height: 1.2; }
-.u-line-height-normal { line-height: 1.5; }
-.u-line-height-large { line-height: 2; }
+.line-height-small { line-height: 1.2; }
+.line-height-normal { line-height: 1.5; }
+.line-height-large { line-height: 2; }
 
-.u-white-space-normal { white-space: normal; }
-.u-white-space-nowrap { white-space: nowrap; }
+.white-space-normal { white-space: normal; }
+.white-space-nowrap { white-space: nowrap; }
 
 @each $breakpoint in map-keys($breakpoints) {
   @include media-breakpoint-min($breakpoint) {
-    .u-text-center-#{$breakpoint} { text-align: center; }
-    .u-text-justify-#{$breakpoint} { text-align: justify; }
-    .u-text-right-#{$breakpoint} { text-align: right; }
-    .u-text-left-#{$breakpoint} { text-align: left; }
+    .text-center-#{$breakpoint} { text-align: center; }
+    .text-justify-#{$breakpoint} { text-align: justify; }
+    .text-right-#{$breakpoint} { text-align: right; }
+    .text-left-#{$breakpoint} { text-align: left; }
 
-    .u-text-overline-#{$breakpoint} { text-decoration: overline; }
-    .u-text-underline-#{$breakpoint} { text-decoration: underline; }
-    .u-text-linethrough-#{$breakpoint} { text-decoration: line-through; }
+    .text-overline-#{$breakpoint} { text-decoration: overline; }
+    .text-underline-#{$breakpoint} { text-decoration: underline; }
+    .text-linethrough-#{$breakpoint} { text-decoration: line-through; }
 
-    .u-font-normal-#{$breakpoint} { font-weight: normal; }
-    .u-font-bold-#{$breakpoint} { font-weight: bold; }
-    .u-font-bolder-#{$breakpoint} { font-weight: bolder; }
-    .u-font-lighter-#{$breakpoint} { font-weight: lighter; }
+    .font-normal-#{$breakpoint} { font-weight: normal; }
+    .font-bold-#{$breakpoint} { font-weight: bold; }
+    .font-bolder-#{$breakpoint} { font-weight: bolder; }
+    .font-lighter-#{$breakpoint} { font-weight: lighter; }
 
-    .u-font-default-#{$breakpoint} { font-size: $font-nm; }
-    .u-font-small-#{$breakpoint} { font-size: $font-sm; }
-    .u-font-medium-#{$breakpoint} { font-size: $font-md; }
-    .u-font-large-#{$breakpoint} { font-size: $font-lg; }
-    .u-font-extra-large-#{$breakpoint} { font-size: $font-xl; }
-    .u-font-super-large-#{$breakpoint} { font-size: $font-sl; }
-    .u-font-mega-large-#{$breakpoint} { font-size: $font-ml; }
+    .font-default-#{$breakpoint} { font-size: $font-nm; }
+    .font-small-#{$breakpoint} { font-size: $font-sm; }
+    .font-medium-#{$breakpoint} { font-size: $font-md; }
+    .font-large-#{$breakpoint} { font-size: $font-lg; }
+    .font-extra-large-#{$breakpoint} { font-size: $font-xl; }
+    .font-super-large-#{$breakpoint} { font-size: $font-sl; }
+    .font-mega-large-#{$breakpoint} { font-size: $font-ml; }
 
-    .u-line-height-small-#{$breakpoint} { line-height: 1.2; }
-    .u-line-height-normal-#{$breakpoint} { line-height: 1.5; }
-    .u-line-height-large-#{$breakpoint} { line-height: 2; }
+    .line-height-small-#{$breakpoint} { line-height: 1.2; }
+    .line-height-normal-#{$breakpoint} { line-height: 1.5; }
+    .line-height-large-#{$breakpoint} { line-height: 2; }
 
-    .u-white-space-normal-#{$breakpoint} { white-space: normal; }
-    .u-white-space-nowrap-#{$breakpoint} { white-space: nowrap; }
+    .white-space-normal-#{$breakpoint} { white-space: normal; }
+    .white-space-nowrap-#{$breakpoint} { white-space: nowrap; }
   }
 }

@@ -11,7 +11,7 @@
   Site-header
 --------------------------------------------------*/
 
-.l-site-header {
+.site-header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,18 +19,18 @@
   z-index: 9;
 
   &,
-  &.js-active.js-show,
-  &.js-active.js-menu-opened {
+  &.active.show,
+  &.active.menu-opened {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
-  &.js-active {
+  &.active {
     top: -$header-height_m;
     transition: $transition;
   }
 
-  &.js-active.js-show,
-  &.js-menu-opened {
+  &.active.show,
+  &.menu-opened {
     top: 0 !important;
   }
 
@@ -55,10 +55,10 @@
     overflow: hidden;
   }
 
-  &-navigation.js-show { max-height: 100vh; }
+  &-navigation.show { max-height: 100vh; }
 
   @include media-breakpoint-min(lg) {
-    &.js-active {
+    &.active {
       top: -$header-height;
     }
 
@@ -86,7 +86,7 @@
   }
 
   @include media-breakpoint-max(lg) {
-    &.js-active {
+    &.active {
       box-shadow: none;
     }
 

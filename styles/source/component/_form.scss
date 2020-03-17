@@ -11,10 +11,10 @@
   Form
 --------------------------------------------------*/
 
-.c-form {
+.form {
   position: relative;
 
-  &.is-fuid { width: 100%; }
+  &.fuid { width: 100%; }
 
   & label {
     display: block;

@@ -11,259 +11,263 @@
   Object-fit
 --------------------------------------------------*/
 
-.u-object-fit {
-  object-fit: inherit;
+.object-fit {
   width: 100%;
   height: 100%;
+  object-fit: inherit;
 
-  &.is-contain {
+  &.contain {
     object-fit: contain;
     object-position: center;
     font-family: "object-fit: contain; object-position: center;";
   }
 
-  &.is-cover {
+  &.cover {
     object-fit: cover;
     object-position: center;
     font-family: "object-fit: cover; object-position: center;";
   }
 
-  &.is-fill {
+  &.fill {
     object-fit: fill;
     object-position: center;
     font-family: "object-fit: fill; object-position: center;";
   }
 
-  &.is-scale_down {
+  &.scale_down {
     object-fit: scale-down;
     object-position: center;
     font-family: "object-fit: scale-down; object-position: center;";
   }
 
-  &.is-contain-top {
+  &.contain-top {
     object-fit: contain;
     object-position: top;
     font-family: "object-fit: contain; object-position: top;";
   }
 
-  &.is-cover-top {
+  &.cover-top {
     object-fit: cover;
     object-position: top;
     font-family: "object-fit: cover; object-position: top;";
   }
 
-  &.is-fill-top {
+  &.fill-top {
     object-fit: fill;
     object-position: top;
     font-family: "object-fit: fill; object-position: top;";
   }
 
-  &.is-scale_down-top {
+  &.scale_down-top {
     object-fit: scale-down;
     object-position: top;
     font-family: "object-fit: scale-down; object-position: top;";
   }
 
-  &.is-contain-right {
+  &.contain-right {
     object-fit: contain;
     object-position: right;
     font-family: "object-fit: contain; object-position: right;";
   }
 
-  &.is-cover-right {
+  &.cover-right {
     object-fit: cover;
     object-position: right;
     font-family: "object-fit: cover; object-position: right;";
   }
 
-  &.is-fill-right {
+  &.fill-right {
     object-fit: fill;
     object-position: right;
     font-family: "object-fit: fill; object-position: right;";
   }
 
-  &.is-scale_down-right {
+  &.scale_down-right {
     object-fit: scale-down;
     object-position: right;
     font-family: "object-fit: scale-down; object-position: right;";
   }
 
-  &.is-contain-bottom {
+  &.contain-bottom {
     object-fit: contain;
     object-position: bottom;
     font-family: "object-fit: contain; object-position: bottom;";
   }
 
-  &.is-cover-bottom {
+  &.cover-bottom {
     object-fit: cover;
     object-position: bottom;
     font-family: "object-fit: cover; object-position: bottom;";
   }
 
-  &.is-fill-bottom {
+  &.fill-bottom {
     object-fit: fill;
     object-position: bottom;
     font-family: "object-fit: fill; object-position: bottom;";
   }
 
-  &.is-scale_down-bottom {
+  &.scale_down-bottom {
     object-fit: scale-down;
     object-position: bottom;
     font-family: "object-fit: scale-down; object-position: bottom;";
   }
 
-  &.is-contain-left {
+  &.contain-left {
     object-fit: contain;
     object-position: left;
     font-family: "object-fit: contain; object-position: left;";
   }
 
-  &.is-cover-left {
+  &.cover-left {
     object-fit: cover;
     object-position: left;
     font-family: "object-fit: cover; object-position: left;";
   }
 
-  &.is-fill-left {
+  &.fill-left {
     object-fit: fill;
     object-position: left;
     font-family: "object-fit: fill; object-position: left;";
   }
 
-  &.is-scale_down-left {
+  &.scale_down-left {
     object-fit: scale-down;
     object-position: left;
     font-family: "object-fit: scale-down; object-position: left;";
   }
 
-  &.is-none {
+  &.none {
+    width: auto;
+    height: auto;
     object-fit: none;
     font-family: "object-fit: none;";
   }
 
   @each $breakpoint in map-keys($breakpoints) {
     @include media-breakpoint-min($breakpoint) {
-      &.is-contain-#{$breakpoint} {
+      &.contain-#{$breakpoint} {
         object-fit: contain;
         object-position: center;
         font-family: "object-fit: contain; object-position: center;";
       }
 
-      &.is-cover-#{$breakpoint} {
+      &.cover-#{$breakpoint} {
         object-fit: cover;
         object-position: center;
         font-family: "object-fit: cover; object-position: center;";
       }
 
-      &.is-fill-#{$breakpoint} {
+      &.fill-#{$breakpoint} {
         object-fit: fill;
         object-position: center;
         font-family: "object-fit: fill; object-position: center;";
       }
 
-      &.is-scale_down-#{$breakpoint} {
+      &.scale_down-#{$breakpoint} {
         object-fit: scale-down;
         object-position: center;
         font-family: "object-fit: scale-down; object-position: center;";
       }
 
-      &.is-contain-top-#{$breakpoint} {
+      &.contain-top-#{$breakpoint} {
         object-fit: contain;
         object-position: top;
         font-family: "object-fit: contain; object-position: top;";
       }
 
-      &.is-cover-top-#{$breakpoint} {
+      &.cover-top-#{$breakpoint} {
         object-fit: cover;
         object-position: top;
         font-family: "object-fit: cover; object-position: top;";
       }
 
-      &.is-fill-top-#{$breakpoint} {
+      &.fill-top-#{$breakpoint} {
         object-fit: fill;
         object-position: top;
         font-family: "object-fit: fill; object-position: top;";
       }
 
-      &.is-scale_down-top-#{$breakpoint} {
+      &.scale_down-top-#{$breakpoint} {
         object-fit: scale-down;
         object-position: top;
         font-family: "object-fit: scale-down; object-position: top;";
       }
 
-      &.is-contain-right-#{$breakpoint} {
+      &.contain-right-#{$breakpoint} {
         object-fit: contain;
         object-position: right;
         font-family: "object-fit: contain; object-position: right;";
       }
 
-      &.is-cover-right-#{$breakpoint} {
+      &.cover-right-#{$breakpoint} {
         object-fit: cover;
         object-position: right;
         font-family: "object-fit: cover; object-position: right;";
       }
 
-      &.is-fill-right-#{$breakpoint} {
+      &.fill-right-#{$breakpoint} {
         object-fit: fill;
         object-position: right;
         font-family: "object-fit: fill; object-position: right;";
       }
 
-      &.is-scale_down-right-#{$breakpoint} {
+      &.scale_down-right-#{$breakpoint} {
         object-fit: scale-down;
         object-position: right;
         font-family: "object-fit: scale-down; object-position: right;";
       }
 
-      &.is-contain-bottom-#{$breakpoint} {
+      &.contain-bottom-#{$breakpoint} {
         object-fit: contain;
         object-position: bottom;
         font-family: "object-fit: contain; object-position: bottom;";
       }
 
-      &.is-cover-bottom-#{$breakpoint} {
+      &.cover-bottom-#{$breakpoint} {
         object-fit: cover;
         object-position: bottom;
         font-family: "object-fit: cover; object-position: bottom;";
       }
 
-      &.is-fill-bottom-#{$breakpoint} {
+      &.fill-bottom-#{$breakpoint} {
         object-fit: fill;
         object-position: bottom;
         font-family: "object-fit: fill; object-position: bottom;";
       }
 
-      &.is-scale_down-bottom-#{$breakpoint} {
+      &.scale_down-bottom-#{$breakpoint} {
         object-fit: scale-down;
         object-position: bottom;
         font-family: "object-fit: scale-down; object-position: bottom;";
       }
 
-      &.is-contain-left-#{$breakpoint} {
+      &.contain-left-#{$breakpoint} {
         object-fit: contain;
         object-position: left;
         font-family: "object-fit: contain; object-position: left;";
       }
 
-      &.is-cover-left-#{$breakpoint} {
+      &.cover-left-#{$breakpoint} {
         object-fit: cover;
         object-position: left;
         font-family: "object-fit: cover; object-position: left;";
       }
 
-      &.is-fill-left-#{$breakpoint} {
+      &.fill-left-#{$breakpoint} {
         object-fit: fill;
         object-position: left;
         font-family: "object-fit: fill; object-position: left;";
       }
 
-      &.is-scale_down-left-#{$breakpoint} {
+      &.scale_down-left-#{$breakpoint} {
         object-fit: scale-down;
         object-position: left;
         font-family: "object-fit: scale-down; object-position: left;";
       }
 
-      &.is-none-#{$breakpoint} {
+      &.none-#{$breakpoint} {
+        width: auto;
+        height: auto;
         object-fit: none;
         font-family: "object-fit: none;";
       }

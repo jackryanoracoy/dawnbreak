@@ -11,23 +11,23 @@
   Section
 --------------------------------------------------*/
 
-.l-section {
+.section {
   padding-top: ($section-gutter-ver / 2);
   padding-bottom: ($section-gutter-ver / 2);
   padding-right: $section-gutter-hor;
   padding-left: $section-gutter-hor;
 
-  &.has-padding-wide {
+  &.padding-wide {
     padding-top: $section-gutter-ver;
     padding-bottom: $section-gutter-ver;
   }
 
-  &.has-padding-narrow {
+  &.padding-narrow {
     padding-top: ($section-gutter-ver / 4);
     padding-bottom: ($section-gutter-ver / 4);
   }
 
-  &.has-padding-no { padding: 0 !important; }
+  &.padding-no { padding: 0 !important; }
 
   @include media-breakpoint-min(xs) {
     padding-right: 0;
@@ -38,12 +38,12 @@
     padding-top: $section-gutter-ver;
     padding-bottom: $section-gutter-ver;
 
-    &.has-padding-wide {
+    &.padding-wide {
       padding-top: ($section-gutter-ver * 2);
       padding-bottom: ($section-gutter-ver * 2);
     }
 
-    &.has-padding-narrow {
+    &.padding-narrow {
       padding-top: ($section-gutter-ver / 2);
       padding-bottom: ($section-gutter-ver / 2);
     }
